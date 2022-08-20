@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#container{
+    font-family:'lato' , sans-serif;
+    line-height: 2rem;
+}
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+}
+div h2 {
+    font-size: 1.8rem;
+    margin: 20px 0px;
+}
+div h1 {
+    max-width: 70%;
+}
+.div-1 {
+    background-image: url(./İMG/bg.jpg);
+    height: 100vh;
+}
+.div-2 {
+    background-image: url(./İMG/bg2.jpg);
+    height: 100vh;
+}
+.clarusway img {
+    height: 2rem;
+    width: 1rem;
+}
+.div-3 {
+    background-image: url(./İMG/bg3.jpg);
+    height: 100vh;
+}
+.div-4 {
+    background-image: url(./İMG/bg4.jpg);
+    height: 100vh;
+}
+.div-5 {
+    background-image: url(./İMG/bg.jpg);
+    height: 100vh;
+}

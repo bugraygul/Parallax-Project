@@ -1,49 +1,84 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: 0;
 }
-#container{
-    font-family:'lato' , sans-serif;
-    line-height: 2rem;
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    height: 100%;
 }
-.div {
+img{
+    width: 20rem;
+}
+.section1{
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    align-items: center;
+    height: 100vh;
     background-size: cover;
-    opacity: 0.75;
-}
-div h2 {
-    font-size: 1.8rem;
-    margin: 20px 0px;
-}
-div h1 {
-    max-width: 70%;
-}
-.div-1 {
+    background-repeat: no-repeat;
+    opacity: 0.73;
+    position: relative;
+    background-attachment: fixed;
     background-image: url(./İMG/bg.jpg);
-    height: 100vh;
 }
-.div-2 {
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.73;
+    position: relative;
+    background-attachment: fixed;
     background-image: url(./İMG/bg2.jpg);
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-}
-.clarusway img {
-    height: 2rem;
-    width: 1rem;
-}
-.div-3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.73;
+    position: relative;
+    background-attachment: fixed;
     background-image: url(./İMG/bg3.jpg);
-    height: 100vh;
 }
-.div-4 {
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.73;
+    position: relative;
+    background-attachment: fixed;
     background-image: url(./İMG/bg4.jpg);
-    height: 100vh;
 }
-.div-5 {
-    background-image: url(./İMG/bg.jpg);
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.73;
+    position: relative;
+    background-attachment: fixed;
+    background-image: url(./İMG/bg1.jpg);
 }
+h1 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: white;
+}
+h2 {
+    margin: 2rem;
+}
+
+

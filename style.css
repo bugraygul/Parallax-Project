@@ -1,84 +1,193 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Audiowide&family=Bowlby+One+SC&family=Courgette&family=Dosis:wght@200;400&family=EB+Garamond:wght@500&family=Lobster&family=Martel:wght@700&family=Righteous&family=Roboto:wght@100&family=Sorts+Mill+Goudy:ital@1&family=Uchen&display=swap");
+
+
+body{
+    font-family: 'Lato' , sans-serif;
 }
-body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    line-height: 1.8rem;
-    height: 100%;
+h3{
+    font-size: 35 px;
 }
-img{
-    width: 20rem;
+p {
+    font-size: 1.2rem;
 }
-.section1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.73;
-    position: relative;
-    background-attachment: fixed;
-    background-image: url(./İMG/bg.jpg);
-}
-.section2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.73;
-    position: relative;
-    background-attachment: fixed;
-    background-image: url(./İMG/bg2.jpg);
-}
-.section3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.73;
-    position: relative;
-    background-attachment: fixed;
-    background-image: url(./İMG/bg3.jpg);
-}
-.section4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.73;
-    position: relative;
-    background-attachment: fixed;
-    background-image: url(./İMG/bg4.jpg);
-}
-.section5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.73;
-    position: relative;
-    background-attachment: fixed;
-    background-image: url(./İMG/bg1.jpg);
-}
-h1 {
-    font-size: 3rem;
-    letter-spacing: 0.5rem;
-    color: white;
-}
-h2 {
-    margin: 2rem;
+h1{
+    font-size: 48px;
 }
 
+
+.clarusway h1 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #282e34;
+    padding-top: 40px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    outline: 15px inset purple;
+    text-transform: uppercase;
+    outline-offset: 15px;
+    width: 500px;
+    height: 100px;
+    margin-left: 400px;
+    margin-bottom: -100px;
+    position: relative;
+    top: 14rem;
+}
+.first {
+    background-image: url(./İMG/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    margin: -40px -8px 0px -8px;
+}
+.first .first-in {
+    border: 2px solid #f1f1f1;
+    background-color: #f1f1f1;
+    color: #666666;
+    text-align: center;
+    height: 200px;
+    width: auto;
+    margin-top: 477px;
+    position: relative;
+    top: 8rem;
+    padding: 5rem;
+}
+.second {
+    background-image: url(./İMG/bg2.jpg);
+    margin: 300px -8px -20px -8px;
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.second img {
+    width: 405px;
+    height: 85px;
+    margin: 250px 450px 250px;
+}
+.second .second-in {
+    background-color: #282e34;
+    color: #dddddd;
+    text-align: center;
+    border: 2px solid #282e34;
+    padding: 50px 60px 0 60ps;
+    position: relative;
+    top: 3rem;
+    bottom: 3rem;
+}
+.third {
+    background-image: url(./İMG/bg3.jpg);
+    margin: 290px -8px -20px -8px;
+    height: 500px;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third h1 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #282e34;
+    color: #fff;
+    padding-top: 35px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    outline: 15px inset purple;
+    text-transform: uppercase;
+    outline-offset: 15px;
+    border: 0;
+    width: 780px;
+    height: 100px;
+    margin-left: 400px;
+    position: relative;
+    top: 11rem;
+    right: 7rem;
+}
+.third .third-in {
+    background-color: #f1f1f1;
+    color: #666666;
+    text-align: center;
+    border: 2px solid #f1f1f1;
+    margin-top: 360px;
+    height: 280px;
+    position: relative;
+    bottom: 1.5rem;
+}
+.fourth {
+    background-image: url(./İMG/bg4.jpg);
+    margin: 270px -8px -20px -8px;
+    height: 500px;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourth .fourth-in {
+    background-color: #282e34;
+    color: #dddddd;
+    text-align: center;
+    border: 2px solid #282e34;
+    margin-top: 365px;
+    height: 300px;
+    padding: 3rem 5rem;
+    position: relative;
+    bottom: 2rem;
+}
+.fourth h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #282e34;
+    color: #fff;
+    padding-top: 35px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    outline: 15px inset purple;
+    text-transform: uppercase;
+    outline-offset: 15px;
+    border: 0;
+    width: 500px;
+    height: 100px;
+    margin-left: 400px;
+    position: relative;
+    top: 12rem;
+}
+.fifth {
+    color: #ffffff;
+    text-align: center;
+    background-color: #282e34;
+    color: #fff;
+    padding-top: 35px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    outline: 15px inset purple;
+    text-transform: uppercase;
+    outline-offset: 15px;
+    border: 0;
+    width: 500px;
+    height: 100px;
+    margin-left: 400px;
+    position: relative;
+    top: 12rem;
+}
+.fifth h1 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #282e34;
+    color: #fff;
+    padding-top: 35px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    outline: 15px inset purple;
+    text-transform: uppercase;
+    outline-offset: 15px;
+    border: 0;
+    width: 500px;
+    height: 100px;
+    margin-left: 400px;
+    position: relative;
+    top: 12rem;
+}
 
